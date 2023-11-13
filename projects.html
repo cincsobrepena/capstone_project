@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <link rel="stylesheet" href="assets/css/projects.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>CARL SOBREPEÑA - PROJECTS</title>
+    </head>
+
+    <body>
+
+        <nav class="p-5 text-white shadow md:flex md:items-center md:justify-between">
+            <div class="flex justify-between items-center">
+                <span class="nav-logo font-semibold text-2xl font-[Poppins] cursor-pointer">CS Portfolio</span>
+
+                <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+                    <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+                </span>
+            </div>
+
+            <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute ulbg w-full left-0 md:w-auto 
+                        md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top=[-400px] transition-all ease-in duration-500">
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="index.html" class=" text-lg ">HOME</a>
+                </li>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="about-me.html" class="text-xl ">ABOUT ME</a>
+                </li>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="skills.html" class="text-xl ">SKILLS</a>
+                </li>
+                <li class="mx-4 my-6 md:my-0">
+                    <a href="projects.html" class="text-xl ">PROJECTS</a>                    
+                </li>
+
+                <button class="mx-4 my-6 md:my-0 text-xl" id="contactMeBTN">
+                    <a href="contact-me.html" class="text-xl ">CONTACT ME</a>
+                </button>
+            </ul>
+        </nav>
+
+        <div class="projects-container">
+            <h1 class="projects-header">PROJECTS</h1>
+            <div class="project-cards">
+                <div id="web-calculator" class="project">
+                    <a class="label" href="https://cincsobrepena.github.io/web-calculator/">WEB CALCULATOR</a>
+                </div>
+                <div id="dota2-dictionary" class="project">
+                    <a class="label" href="https://cincsobrepena.github.io/dota2-team-dictionary/team1.html">DOTA 2 TEAMS DICTIONARY</a>
+                </div>
+                <div id="pahimakas"class="project">
+                    <a class="label" href="https://docs.google.com/presentation/d/1FjbuZJZ2qB--xg49xtX5jsHpoMzZf8vRxrPrrUX4z58/edit?usp=sharing">Pahimakas: The last farewell (Game Pitch)</a>
+                </div>
+            </div>  
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-col">
+                    <a href="index.html"><h4>HOME</h4></a>
+                </div>
+                <div class="footer-col">
+                    <a href="about-me.html"><h4>ABOUT ME</h4></a>
+                </div>
+                <div class="footer-col">
+                    <a href="skills.html"><h4>SKILLS</h4></a>
+                </div>
+                <div class="footer-col">
+                    <a href="projects.html"><h4>PROJECTS</h4></a>
+                </div>
+                <div class="footer-col">
+                    <a href="contact-me.html"><h4>CONTACT ME</h4></a>
+                </div>
+            </div>
+            <p class="copyright-statement">&copy Copyright All rights reserved.</p >
+        </footer>
+    </body>
+</html>

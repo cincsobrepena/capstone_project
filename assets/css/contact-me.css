@@ -1,0 +1,53 @@
+.contactme-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.header{
+    font-size: xxx-large;
+    font-weight: 1000;
+    margin: 5vh;
+}
+
+.inputBox {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh;
+    justify-content: left;
+}
+
+span {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+input{
+    height: 5vh;
+}
+
+input, textarea{
+    border-radius: 5px;
+    padding: 10px;
+    border-color: rgb(126, 98, 62);
+    border-width: 4px;
+}
+
+#submitBTN{
+    background-color: #52311b;
+    margin: 5vh;
+    color: white; 
+    padding: 30px;
+    font-size:x-large;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#submitBTN:hover{
+    background-color: #6f3c19;
+    color: whitesmoke;
+}
