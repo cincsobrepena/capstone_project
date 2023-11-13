@@ -1,0 +1,29 @@
+.welcome-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    font-size: 20vh;
+    font-weight: bolder;
+    color: #352216;
+}
+
+.subheader{
+    font-size: 5vh;
+    font-weight: medium;
+    color: #352216;
+}
+
+.header:hover, .subheader:hover{
+    animation-name: shake;
+    animation-duration: 1s;
+}
+
+@keyframes shake {
+    30%{ rotate: 25deg; }
+    60%{ rotate: -25deg; scale: 1.5}
+}
